@@ -1,0 +1,7 @@
+{
+    "skill": "Lm_TellJoke_FHEM",
+    "icon": "time",
+    "description": "Tell joke \u00fcber fhem zum testen",
+    "slotTypes": [],
+    "intents": []
+}
