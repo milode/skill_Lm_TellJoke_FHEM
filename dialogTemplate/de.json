@@ -1,7 +1,50 @@
 {
     "skill": "Lm_TellJoke_FHEM",
     "icon": "time",
-    "description": "Tell joke \u00fcber fhem zum testen",
+    "description": "Tells joke, erzaehlt eine Witz (ueber FHEM)",
     "slotTypes": [],
-    "intents": []
+    "intents": [
+					{
+						"name": "TellJoke",
+						"description": "Nutzer fragt nach einem Witz",
+						"enabledByDefault": true,
+						"utterances": [
+							"Erzähl einen Witz",
+							"Erzähl noch einen Witz",
+							"Erzähl mal einen Witz",
+							"Erzähl mal noch einen Witz",
+							"Kannst du mir bitte einen Witz erzählen",
+							"Kannst du mir bitte noch einen Witz erzählen",
+							"Kannst du mir bitte mal einen Witz erzählen",
+							"Kannst du mir bitte noch mal einen Witz erzählen",
+							"Kannst du mir einen Witz erzählen",
+							"Kannst du mir noch einen Witz erzählen",
+							"Kannst du mir mal einen Witz erzählen",
+							"Kannst du mir noch mal einen Witz erzählen",
+							"Bitte erzähle uns einen Witz",
+							"Bitte erzähle uns noch einen Witz",
+							"Bitte erzähle uns mal einen Witz",
+							"Bitte erzähle uns mal noch einen Witz",
+							"Bitte kannst du mir einen Witz erzählen",
+							"Bitte kannst du mir noch einen Witz erzählen",
+							"Bitte kannst du mir mal einen Witz erzählen",
+							"Bitte kannst du mir noch mal einen Witz erzählen",
+							"Kannst du uns bitte einen Witz erzählen",
+							"Kannst du uns bitte noch einen Witz erzählen",
+							"Kannst du uns bitte mal einen Witz erzählen",
+							"Kannst du uns bitte noch mal einen Witz erzählen",
+							"Bitte könntest du mir einen Witz erzählen",
+							"Bitte könntest du mir noch einen Witz erzählen",
+							"Bitte könntest du mir mal einen Witz erzählen",
+							"Bitte könntest du mir noch mal einen Witz erzählen",
+							"könntest du mir bitte einen Witz erzählen",
+							"könntest du mir bitte noch einen Witz erzählen",
+							"könntest du mir bitte mal einen Witz erzählen",
+							 "könntest du mir bitte noch mal einen Witz erzählen",
+							"Könntest du etwas witziges erzählen"
+						],
+						"slots": []
+					}
+				]
+
 }

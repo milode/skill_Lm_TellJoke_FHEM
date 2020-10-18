@@ -6,9 +6,9 @@ from core.util.Decorators import IntentHandler
 class Lm_TellJoke_FHEM(AliceSkill):
 	"""
 	Author: milode
-	Description: Tell joke über fhem zum testen
+	Description: Tells joke, erzaehlt eine Witz (ueber FHEM)
 	"""
 
-	@IntentHandler('MyIntentName')
+	@IntentHandler('TellJoke')
 	def dummyIntent(self, session: DialogSession, **_kwargs):
 		pass
